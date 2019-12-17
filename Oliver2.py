@@ -22,9 +22,6 @@ def derivative(x, y, a, c):
     return np.sum(dfa)/len(y), np.sum(dfc)/len(y)
 
 print(derivative(x, y, 4, 1))
-#print((F(x, y, 2.0001, 10, -1) - F(x, y, 2, 10, -1))/0.0001) 
-#print((F(x, y, 2, 10.0001, -1) - F(x, y, 2, 10, -1))/0.0001)
-#print((F(x, y, 2, 10, -0.9999) - F(x, y, 2, 10, -1))/0.0001)
 
 def gradient_descent(x, y, a, c):
     function = []
